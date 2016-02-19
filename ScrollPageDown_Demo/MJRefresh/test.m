@@ -17,5 +17,6 @@
     // Drawing code
 }
 */
-
+//(@"");
+//NSLocalizedString(<#key#>, <#comment#>);
 @end
