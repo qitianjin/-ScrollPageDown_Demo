@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CC82F7F1C76E72A00CCF1A5 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC82F7E1C76E72A00CCF1A5 /* test.m */; settings = {ASSET_TAGS = (); }; };
 		F15EA24C1B578381007766C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F15EA24B1B578381007766C3 /* main.m */; };
 		F15EA24F1B578381007766C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F15EA24E1B578381007766C3 /* AppDelegate.m */; };
 		F15EA2521B578381007766C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15EA2511B578381007766C3 /* ViewController.m */; };
@@ -46,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4CC82F7D1C76E72A00CCF1A5 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		4CC82F7E1C76E72A00CCF1A5 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 		F15EA2461B578381007766C3 /* ScrollPageDown_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollPageDown_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F15EA24A1B578381007766C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F15EA24B1B578381007766C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -192,6 +195,8 @@
 				F15EA2991B578414007766C3 /* UIScrollView+MJRefresh.m */,
 				F15EA29A1B578414007766C3 /* UIView+MJExtension.h */,
 				F15EA29B1B578414007766C3 /* UIView+MJExtension.m */,
+				4CC82F7D1C76E72A00CCF1A5 /* test.h */,
+				4CC82F7E1C76E72A00CCF1A5 /* test.m */,
 			);
 			path = MJRefresh;
 			sourceTree = "<group>";
@@ -384,6 +389,7 @@
 				F15EA2AE1B578414007766C3 /* UIView+MJExtension.m in Sources */,
 				F15EA29C1B578414007766C3 /* MJRefreshAutoFooter.m in Sources */,
 				F15EA2A41B578414007766C3 /* MJRefreshBackGifFooter.m in Sources */,
+				4CC82F7F1C76E72A00CCF1A5 /* test.m in Sources */,
 				F15EA2A81B578414007766C3 /* MJRefreshNormalHeader.m in Sources */,
 				F15EA2A31B578414007766C3 /* MJRefreshAutoStateFooter.m in Sources */,
 				F15EA29D1B578414007766C3 /* MJRefreshBackFooter.m in Sources */,
@@ -586,6 +592,7 @@
 				F15EA26B1B578381007766C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F15EA26C1B578381007766C3 /* Build configuration list for PBXNativeTarget "ScrollPageDown_DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -594,6 +601,7 @@
 				F15EA26E1B578381007766C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
